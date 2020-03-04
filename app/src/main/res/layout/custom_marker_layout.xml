@@ -1,6 +1,167 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+                android:weightSum="100"
+                android:minWidth="700dp">
+
+
+    <ImageView
+        android:id="@+id/phxzoo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="50"
+        android:src="@drawable/phxzoo1"/>
+
+    <ImageView
+        android:id="@+id/africanlion"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/african_lion"/>
+
+    <ImageView
+        android:id="@+id/hyena"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/hyena"/>
+
+    <ImageView
+        android:id="@+id/tiger"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/tiger"/>
+
+    <ImageView
+        android:id="@+id/asianelephant"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/asianelephant1"/>
+
+    <ImageView
+        android:id="@+id/baldeagle"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/bald_eagle"/>
+
+    <ImageView
+        android:id="@+id/cheetah"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/cheetah"/>
+
+    <ImageView
+        android:id="@+id/sloth"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/sloth"/>
+
+    <ImageView
+        android:id="@+id/oragutan"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/orangutan"/>
+
+    <ImageView
+        android:id="@+id/wolf"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/mexican_wolf"/>
+
+    <ImageView
+        android:id="@+id/jaguar"
+        android:layout_width="42dp"
+        android:layout_height="411dp"
+        android:src="@drawable/jaguar" />
+
+    <ImageView
+        android:id="@+id/giraffe"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/giraffe"/>
+
+    <ImageView
+        android:id="@+id/bear"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/andean_bear"/>
+
+    <ImageView
+        android:id="@+id/mountainlion"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/mountain_lion"/>
+
+    <ImageView
+        android:id="@+id/komodo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/komodo_dragon"/>
+
+    <ImageView
+        android:id="@+id/rhino"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/white_rhino"/>
+
+    <ImageView
+        android:id="@+id/otter"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/otter"/>
+
+    <ImageView
+        android:id="@+id/fox"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/fennec_fox"/>
+
+    <ImageView
+        android:id="@+id/flamingo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/flamingo"/>
+
+    <ImageView
+        android:id="@+id/zebra"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/zebra"/>
+
+    <ImageView
+        android:id="@+id/baboon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/baboon"/>
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_weight="50">
+
+
+
+        <TextView
+            android:text="Animal"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/txtAnimal"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:textColor="#000"/>
+
+    </LinearLayout>
 
 </LinearLayout>
